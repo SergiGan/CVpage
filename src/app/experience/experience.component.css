@@ -1,0 +1,47 @@
+
+sub{
+	text-transform:uppercase
+}
+p{
+	font-family: Times New Roman;
+}
+p #L1{
+	color: #f0ff00;	
+}
+p #L1:hover {
+    color: white; /*#1d1f21;*/
+    text-decoration: underline;
+}
+span p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.educate{
+	display: inline-block;
+}
+footer{
+	background: #00316b;
+}
+div .alert .alert-secondary {
+	margin: 0px;
+}
+#p2{
+	margin:50px 15px; 
+	color: white;
+}
+@media only screen and (max-width: 576px) { 
+	.card{
+		width:126px;
+		height:240px;
+		}
+ }
+
+@media (min-width: 768px) { 
+		
+	}
+
+@media (min-width: 992px) { 
+	
+	}
+
+@media (min-width: 1200px) {  }
