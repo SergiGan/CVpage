@@ -1,34 +1,23 @@
 
-sub{
-	text-transform:uppercase
-}
-p{
-	font-family: Times New Roman;
-}
-p #L1{
-	color: #f0ff00;	
-}
-p #L1:hover {
-    color: white; /*#1d1f21;*/
-    text-decoration: underline;
-}
-span p{
+span {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 .educate{
 	display: inline-block;
+	background: #ADD8E6; /*#C0C0C0, #00316b;*/
+	box-shadow : 0px 0px 30px grey;
 }
-footer{
-	background: #00316b;
+
+/*div .alert .alert-secondary {
+	margin: 10px;
+}*/
+.text-muted{
+	margin-left: 5px;
+	padding-left: 0px;
+	margin-right: 5px;
 }
-div .alert .alert-secondary {
-	margin: 0px;
-}
-#p2{
-	margin:50px 15px; 
-	color: white;
-}
+
 @media only screen and (max-width: 576px) { 
 	.card{
 		width:126px;
@@ -44,4 +33,5 @@ div .alert .alert-secondary {
 	
 	}
 
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+ }

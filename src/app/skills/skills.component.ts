@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 	link = false;
-	backgound;
+	//backgound;
 	//style: number;
 	skills = [
 	{
@@ -49,9 +49,9 @@ export class SkillsComponent implements OnInit {
 	{
 		direction: 'Python 3)',
 		background: 'bg-danger',
-		ariaValuenow: '35',
-		level: '35%',
-		style: '35%'
+		ariaValuenow: '40',
+		level: '40%',
+		style: '40%'
 	},
 	{
 		direction: 'Fortran',
