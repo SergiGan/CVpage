@@ -2,7 +2,7 @@ body{
 	margin:0px;
 	padding: 0px;
 	background-color: lightgrey;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif", Times New Romans;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif", Times New Roman;
 }
 .navbar{
 	margin: 0px ;
@@ -47,6 +47,7 @@ footer{
 div .alert .alert-secondary {
 	margin: 0px;
 }
+
 #p2{
 	margin:50px 15px; 
 	color: white;

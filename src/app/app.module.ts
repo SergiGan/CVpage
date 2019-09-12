@@ -1,6 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { MatMenuModule} from '@angular/material/menu';
+import {MatButtonModule} from '@angular/material';
+import {MatIconModule} from '@angular/material/icon';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+//import {MatMenuTriggerFor} from '@angular/material/menu';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
@@ -22,7 +27,13 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatMenuModule,
+    MatButtonModule,
+    MatIconModule,
+    BrowserAnimationsModule,
+    //MatMenuTriggerFor
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -2,7 +2,7 @@ body{
 	margin:0px;
 	padding: 0px;
 	background-color: lightgrey;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif", Times New Romans;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif", "Times New Roman";
 }
 .navbar{
 	margin: 0px ;
@@ -24,7 +24,7 @@ col-lg-9 {
     margin-left: -15px;
 }
 sub{
-	text-transform:uppercase
+	text-transform:uppercase;
 }
 .navbar-collapse{
 	justify-content: flex-end;	
